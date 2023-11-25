@@ -1,0 +1,76 @@
+nav {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 3.75rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 2rem;
+  margin: 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0;
+  padding-right: 2rem;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: none;
+  color: white;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 3.4rem;
+  padding: 0.1rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav li {
+    font-size: 0.8rem;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  nav li {
+    font-size: 1rem;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  nav li {
+    font-size: 1.5rem;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  nav li {
+    font-size: 1.75rem;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  nav li {
+    font-size: 2rem;
+  }
+}
